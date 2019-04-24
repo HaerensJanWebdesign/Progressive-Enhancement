@@ -1,0 +1,12 @@
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    word-spacing: 3px;
+    font-size: 18px;
+    color: brown;
+}
+a {
+    color:red;
+}
+a:hover {
+    background-color: yellow;
+}
