@@ -1,12 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+    max-width: 90%;
+    margin: auto;
+    background-image: linear-gradient(#9cb9d3,#001f3d)
+}
+header h1 {
+    background-color: yellow;
+}
+img {
+    float: left;
+    margin-right: 15px;
+}
 p {
     font-family: "Palatino Linotype", "Book Antiqua", serif;
     word-spacing: 3px;
     font-size: 18px;
-    color: brown;
+    color: rgb(25, 11, 39);
+}
+.firstline {
+    font-weight: bold;
 }
 a {
     color:red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 a:hover {
     background-color: yellow;
+}
+a:visited {
+    color:peru;
+}
+q {
+    max-width: 50%;
+    margin: 80px 0 80px 40%;
+    padding-left: 30px;
+
+    font-size: 160%;
+
+    background-color: #f4f4f4;
+
+    border-left: 3px solid red;
+    
+    font-style: italic;
+}
+cite {
+    font-style: italic;
+}
+.villager {
+    color: pink
+}
+.farmer {
+    color: white;
+}
+.good {
+    color:green;
+}
+.bad {
+    color:red;
+}
+tr:nth-child(even) {
+    background: black;
+    color: white
+}
+tr:nth-child(odd) {
+    background: white;
 }
